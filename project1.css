@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 68vh;
+    width: 100vw;
+    background-color:#FFCD9E;
+}
+footer{
+    height: 32vh;
+    width: 100vw;
+    background-color: #282828;
+}
+header>div{
+    height: 100%;
+    width: calc(100%/2);
+}
+.header1{
+    flex: 1;
+    background-color: #FFCD9E;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;
+    justify-content: space-evenly;
+}
+.h-item1{
+    width: 34.37vw;
+    height: 14vh;
+    font-size: 2.3vw;
+    font-weight: 700;
+    line-height: 3.3vw;
+    font-family: 'Inter', sans-serif;
+}
+.h-item2{
+    width: 29vw;
+    height: 11vh;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 1.7vw;
+    font-family: 'Inter', sans-serif;
+}
+.h-item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    height: 11vh;
+    font-size: 1.2vw;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+.h-item4{
+    font-size: 1vw;
+    font-weight: 500;
+    color: white;
+    height: 6vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.email{
+    width: 20vw;
+    height: 6vh;
+    border: 4px;
+    border-color: #000000;
+}
+::placeholder { 
+    padding-left: 2vw;
+    columns:#888888;
+    font-size: 1vw;
+    font-weight: 600; 
+    line-height: 1vw;
+    align-items: center;
+}
+.btn{
+    margin-left: 10%;
+    background-color: #282828;
+    color: white;
+    height: 6vh;
+    width: 10vw;
+    border-radius: 8px;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.header2{
+    display: flex;
+    justify-content: center;
+}
+.man{
+    height: 97.14%;
+    width: 61.07%;
+    padding-top: 2.25%;
+    padding-left: 8.75%;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+.foot>div{
+    height: 100%;
+    width: calc(100%/2);
+}
+.f-item1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;  
+}
+.msg{
+    margin: 0px;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 1vw;
+    color: white;
+    height: 4vh;
+    width: 12vw;
+    flex-wrap: wrap;
+}
+.f-item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: right;
+}
+.f2-msg3{
+    margin-bottom: 1.8vw;
+}
+img{
+    height: 25px;
+    width: 25px;
+}
